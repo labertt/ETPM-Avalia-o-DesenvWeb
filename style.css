@@ -1,0 +1,104 @@
+body {
+    background: linear-gradient(purple, darkslateblue, black);
+}
+
+
+
+#menu {
+    list-style-type: none;
+    padding: 10px;
+    background-color: black;
+}
+
+#menu li {
+    display: inline;
+}
+
+#menu li a {
+    color: bisque;
+    text-decoration: none;
+    padding: 30px;
+}
+
+#menu li a:hover {
+    color: darkslateblue;
+}
+
+table, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    color: white;
+}
+
+td {
+    padding: 5px 10px;
+}
+
+thead {
+    background-color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.form {
+    font-family: 'Lato';
+    background-color: black;
+    border-radius: 5px;
+    color: rgb(159, 94, 224);
+    font-size: 1em;
+    margin-top: 2%;
+    margin: 0 auto;
+    width: 50%;
+    padding: 30px;
+    box-shadow: 5px 5px 5px black;
+    margin-bottom: 5%;
+}
+
+
+
+.campo select option{
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background: whitesmoke;
+}
+
+.botao{
+    font-size: 1.2em;
+    background: slateblue;
+    border: 0;
+    margin-bottom: 1em;
+    color: white;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px black;
+    text-shadow: 1px 1px 1px black;
+    position: center;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50% -50%);
+}
+
+.botao:hover{
+    background: darkorchid;
+    box-shadow: inset 2px 2px 2px black;
+    text-shadow: none;
+}
+
+.botao, select{
+    cursor: pointer;
+}
+
+.campo{
+    margin-bottom: 1em;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color: white;
+    display: block;
+}

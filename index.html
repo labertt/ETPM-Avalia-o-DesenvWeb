@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ETPM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div style="text-align: center;">
+        <img id="home" src="Imagens/EtpmFoto1.webp">
+    </div>
+    
+    <div style="text-align: center;">
+        <ul id="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#moletom">Sobre Moletons</a></li>
+            <li><a href="#camisa">Sobre Camisas</a></li>
+            <li><a href="#formulario">Contato</a></li>
+        </ul>
+    </div>
+
+    <div style="text-align: center;">
+        <img src="Imagens/EtpmMoletom.png">
+        <img src="Imagens/EtpmMoletom1.png">
+        <img src="Imagens/EtpmMoletom2.png">
+    </div>
+
+    <div style="text-align: center;">
+        <h1 id="moletom" style="color: rgb(183, 238, 88); text-transform: uppercase; margin-bottom: 3%; margin-top: 3%;">Moletons</h1> 
+  
+        <p style="font-family: 'Lato', 'sans serif'; font-weight: 700; color: white;">Nossos <i>moletons</i> sao gostosos de se usar, eles sao fabricados por pena de ganso da <b>italia.</b><br>
+                São de otimas qualidade, 100% algodão, e espero que gostem.</p>
+    </div>
+    
+    <div style="text-align: center;">
+        <video width="600" controls>
+            <source src="Videos/video.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div style="text-align: center;">
+        <p style="font-family: 'Lato', 'sans serif'; font-weight: 700; color: white;">Como podem ver nossos moletons são bastante estilosos e geralmente pessoas que gostam 
+            de andar de skate usam.<br> 
+            Podem ser usados para passeios também e são bastante confortaveis para se usar no dia a dia.
+        </p>
+
+        <p style="font-family: 'Lato', 'sans serif'; font-weight: 700; color: white;">Os moletons T-Shirt são considerados os que tem estampas, frases e são básicas.<br>
+            Os T-shirts são peças <b>curinga,</b> porque podem ser usadas tanto em looks mais básicos como podem se transformar na peça principal da combinação.
+        </p>
+    </div>
+   
+    <div style="text-align: center;">
+        <h1 id="camisa" style="color: rgb(183, 238, 88); text-transform: uppercase; margin-bottom: 40px; margin-top: 5%;">Camisas</h1>
+
+        <img src="Imagens/EtpmCamisa1.png">
+        <img src="Imagens/EtpmCamisa.png">
+        <img src="Imagens/EtpmCamisa2.png">
+    </div>
+    
+    <div style="text-align: center;">
+        <p style="font-family: 'Lato', 'sans serif'; font-weight: 700; color: white;">Nossas <i>camisas são do estilo T-Shirt</i>, elas sao fabricados no Brasil pela <b>Alternatica Concept.</b><br>
+            São de otimas qualidade, 100% algodão, e espero que gostem.</p>
+    </div>
+
+    
+    
+    <table style="margin: 0 auto;">
+        <thead>
+            <tr>
+                <th style="text-align: center;"><b>P</b></td>
+                <th style="text-align: center;"><b>M</b></td>
+                <th style="text-align: center;"><b>G</b></td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td style="text-align: center;">20</td>
+                <td style="text-align: center;">19</td>
+                <td style="text-align: center;">30</td>
+            </tr>
+
+            <tr>
+                <td style="text-align: center;">Em estoque</td>
+                <td style="text-align: center;">Em estoque</td>
+                <td style="text-align: center;">Em estoque</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2" style="text-align: center;">DP</td>
+                <td colspan="2" style="text-align: center;">DP</td>
+            </tr>
+
+            <tr>
+                <td style="text-align: center;">DP</td>
+                <td style="text-align: center;">DP</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div style="text-align: center;">
+        <p style="font-family: 'Lato', 'sans serif'; font-weight: 700; color: white; margin-bottom: 10%;">Essas camisas <b>T-Shirt</b> são consideradas camisetas que tem estampas, frases e são básicas.<br>
+            As T-shirts são peças <b>curinga,</b> porque podem ser usadas tanto em looks mais básicos como podem se transformar na peça principal da combinação.</p>
+    </div>
+
+    
+
+    <div class="form">
+        <form>
+            <h1 id="formulario" style="text-align: center; color: slateblue; text-transform: uppercase;">Contato</h1>
+            <div class="campo">
+    
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name="nome" id="nome" required>
+        
+            </div>
+        
+            <div class="campo">
+        
+                <label><strong>Escolha o tamanho</strong></label>
+                <select id="tamanho">
+                    <option selected disabled value="">Escolha</option>
+                    <option>P</option>
+                    <option>M</option>
+                    <option>G</option>
+                </select>
+        
+            </div>
+        
+            <div class="campo">
+        
+                <label><strong>Qual seu gênero?</strong></label>
+                <label>
+                    <input type="radio" name="genero" value="masculino">Masculino
+                </label>
+        
+                <label>
+                    <input type="radio" name="genero" value="feminino">Feminino
+                </label>
+            </div>
+        
+            <div class="campo">
+        
+                <br>
+                <label><strong>Descreva a peça que você gostaria de ver na loja</strong></label>
+                <textarea row="6" style="width: 26em;" id="suahistoria" name="suahistoria"></textarea>
+        
+            </div>
+
+            <button class="botao" type="submit">Enviar</button>
+
+        </form>
+    </div>
+
+    <div style="text-align: center; margin-bottom: 5%;">
+        <h4 style="color: darkslateblue; font-family: 'Lato', 'sans serif'; font-weight: 700;">developed by Labert and Elloádja</h4>
+    </div>
+    
+
+</body>
+</html>
